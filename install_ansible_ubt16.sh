@@ -6,7 +6,7 @@ sudo apt-get install software-properties-common
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
 sudo apt install -y python-pip
-pip install --upgrade pip
+#pip install --upgrade pip
 sudo apt install -y python-pip3
-pyp install python-jinja2
+pip install python-jinja2
 sudo apt-get install ansible
