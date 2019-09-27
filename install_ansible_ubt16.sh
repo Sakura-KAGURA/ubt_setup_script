@@ -5,7 +5,13 @@ sudo apt-get update
 sudo apt-get install software-properties-common
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
-sudo apt install -y python-pip
+
+## https://mem-archive.com/2018/10/28/post-996/
+# sudo apt --purge remove python-pip
+# sudo apt install -y python-pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python get-pip.py
+
 #pip install --upgrade pip
 sudo apt install -y python-pip3
 pip install python-jinja2
