@@ -14,5 +14,6 @@ sudo python get-pip.py
 
 #pip install --upgrade pip
 sudo apt install -y python-pip3
+echo "install jinja2"
 pip install jinja2
 sudo apt-get install ansible
