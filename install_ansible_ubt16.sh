@@ -18,9 +18,10 @@ sudo apt-get  install -y python-pip3
 # python-markupsafe
 sudo apt-get install python-markupsafe
 
-
+echo "===== install ansible(pip) ====="
 sudo apt install libssl-dev
-pip install ansible
+# pip install ansible
+pip install ansible --user
 
 echo "===== install jinja2 ====="
 # pip install jinja2
