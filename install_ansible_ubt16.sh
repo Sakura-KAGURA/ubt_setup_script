@@ -16,21 +16,21 @@ sudo python get-pip.py
 sudo apt-get  install -y python-pip3
 
 # python-markupsafe
-sudo apt-get install python-markupsafe
+#sudo apt-get install python-markupsafe
 
 echo "===== install ansible(pip) ====="
 sudo apt install libssl-dev
 # pip install ansible
 pip install ansible --user
 
-echo "===== install jinja2 ====="
+#echo "===== install jinja2 ====="
 # pip install jinja2
 
 # https://ubuntu.pkgs.org/16.04/ubuntu-main-i386/python-jinja2_2.8-1_all.deb.html 
-wget http://archive.ubuntu.com/ubuntu/pool/main/j/jinja2/python-jinja2_2.8-1_all.deb
-sudo apt-get -y install ./python-jinja2_2.8-1_all.deb
+#wget http://archive.ubuntu.com/ubuntu/pool/main/j/jinja2/python-jinja2_2.8-1_all.deb
+#sudo apt-get -y install ./python-jinja2_2.8-1_all.deb
 
-sudo apt-get install ansible
+#sudo apt-get install ansible
 
 
 ansible --version
