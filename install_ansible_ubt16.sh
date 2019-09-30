@@ -15,5 +15,9 @@ sudo python get-pip.py
 #pip install --upgrade pip
 sudo apt install -y python-pip3
 echo "install jinja2"
-pip install jinja2
+# pip install jinja2
+
+# https://ubuntu.pkgs.org/16.04/ubuntu-main-i386/python-jinja2_2.8-1_all.deb.html 
+sudo apt-get install python-jinja2
+
 sudo apt-get install ansible
