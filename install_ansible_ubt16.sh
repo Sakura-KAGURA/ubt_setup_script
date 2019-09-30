@@ -19,6 +19,7 @@ sudo apt-get  install -y python-pip3
 #sudo apt-get install python-markupsafe
 
 echo "===== install ansible(pip) ====="
+# http://chutablog.blogspot.com/2017/05/ubuntu-1604ansible.html
 sudo apt install libssl-dev
 # pip install ansible
 pip install ansible --user
