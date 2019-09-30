@@ -18,6 +18,10 @@ sudo apt-get  install -y python-pip3
 # python-markupsafe
 sudo apt-get install python-markupsafe
 
+
+sudo apt install libssl-dev
+pip install ansible
+
 echo "===== install jinja2 ====="
 # pip install jinja2
 
