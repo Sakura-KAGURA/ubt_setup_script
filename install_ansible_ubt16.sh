@@ -13,7 +13,11 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python get-pip.py
 
 #pip install --upgrade pip
-sudo apt install -y python-pip3
+sudo apt-get  install -y python-pip3
+
+# python-markupsafe
+sudo apt-get install python-markupsafe
+
 echo "===== install jinja2 ====="
 # pip install jinja2
 
