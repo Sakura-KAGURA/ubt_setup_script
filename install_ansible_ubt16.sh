@@ -30,3 +30,6 @@ wget http://archive.ubuntu.com/ubuntu/pool/main/j/jinja2/python-jinja2_2.8-1_all
 sudo apt-get -y install ./python-jinja2_2.8-1_all.deb
 
 sudo apt-get install ansible
+
+
+ansible -v
