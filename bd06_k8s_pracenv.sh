@@ -7,3 +7,4 @@ docker-compose --version
 cd ~/Downloads
 git clone https://github.com/arush-sal/cka-practice-environment.git
 
+echo " cd ./cka-practice-environment"
