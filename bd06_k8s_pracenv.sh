@@ -4,8 +4,12 @@
 
 # release
 # https://github.com/docker/compose/releases
-curl -L "https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
+## curl -L "https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+cd ~/Downloads
+curl -L "https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-$(uname -s)-$(uname -m)" 
+sudo  cp -p ./docker-compose-$(uname -s)-$(uname -m)"  /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
 # exit
 #docker-compose -v
 #docker-compose versio
