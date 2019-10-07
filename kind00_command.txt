@@ -1,0 +1,3 @@
+
+kind delete cluster --name kind-2
+kind create cluster --name kind-2 --config kind03-smplclus01-config.yaml 
