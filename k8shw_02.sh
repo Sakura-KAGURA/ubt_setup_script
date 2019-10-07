@@ -16,3 +16,9 @@ cd ~/Downloads
 curl -L  https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 -o ~/Downloads/cfssl
 curl -L  https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64  -o ~/Downloads/cfssljson
 curl -L  https://pkg.cfssl.org/R1.2/cfssl-certinfo_linux-amd64  -o ~/Downloads/cfssl-certinfo
+
+chmod +x ~/Downloads/cfs*
+
+sudo cp -p ~/Downloads/cfssl /usr/local/bin/cfssl
+sudo cp -p ~/Downloads/cfssljson /usr/local/bin/cfssljson
+sudo cp -p ~/Downloads/cfssl-certinfo /usr/local/bin/cfssl-certinfo 
