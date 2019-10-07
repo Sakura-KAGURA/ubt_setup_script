@@ -26,6 +26,7 @@ sudo cp -p ~/Downloads/cfssl-certinfo /usr/local/bin/cfssl-certinfo
 echo "cfssl"
 which cfssl
 cfssl -h
+cfssl version
 
 wcho "cfssljson"
 which cfssljspn
