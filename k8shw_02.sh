@@ -22,3 +22,11 @@ chmod +x ~/Downloads/cfs*
 sudo cp -p ~/Downloads/cfssl /usr/local/bin/cfssl
 sudo cp -p ~/Downloads/cfssljson /usr/local/bin/cfssljson
 sudo cp -p ~/Downloads/cfssl-certinfo /usr/local/bin/cfssl-certinfo 
+
+echo "cfssl"
+which cfssl
+cfssl -h
+
+wcho "cfssljson"
+which cfssljspn
+cfssljson -h
