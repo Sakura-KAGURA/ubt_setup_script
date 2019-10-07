@@ -13,9 +13,14 @@ echo "PATH=$PATH:/usr/local/go/bin" >>~/.bashrc
 go version
 
 
-# https://blog.cybozu.io/entry/2019/07/03/170000
+## https://blog.cybozu.io/entry/2019/07/03/170000
+# GO111MODULE="on" go get sigs.k8s.io/kind@v0.4.0
 
-GO111MODULE="on" go get sigs.k8s.io/kind@v0.4.0
+# https://github.com/kubernetes-sigs/kind
+curl -Lo ./kind https://github.com/kubernetes-sigs/kind/releases/download/v0.5.1/kind-$(uname)-amd64
+chmod +x ./kind
+mv ./kind /usr/local/bin/kind
+
 
 
 
