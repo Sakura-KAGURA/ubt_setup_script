@@ -13,6 +13,6 @@
 #    $ chmod +x /bin/cfssl*
 
 cd ~/Downloads
-curl -O  https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 
-curl -O  https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64
-curl -O  /bin/cfssl-certinfo https://pkg.cfssl.org/R1.2/cfssl-certinfo_linux-amd64
+curl -L  https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 -o ~/Downloads/cfssl
+curl -L  https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64  -o ~/Downloads/cfssljson
+curl -L  /bin/cfssl-certinfo https://pkg.cfssl.org/R1.2/cfssl-certinfo_linux-amd64  -o ~/Downloads/cfssl-certinfo
