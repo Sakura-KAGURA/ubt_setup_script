@@ -10,4 +10,5 @@ chmod +x ./ubt_setup_script/*sh
 
 cp -p ~/Downloads/ubt_setup_script/bd99_clearsetup.sh ~/Downloads/bd99_clearsetup.sh
 
+rm master.tar.gz
 ls -laR  ~/Downloads/ubt_setup_script/
