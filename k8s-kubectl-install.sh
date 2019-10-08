@@ -17,4 +17,7 @@ sudo mv $KUBEPATH ${KUBEPATH}.${KUBE_V1}
 sudo mv ./kubectl ${KUBEPATH}
 #sudo ln -s ${KUBEPATH}.${KUBE_V2} ${KUBEPATH}
 
+kubectl version
+kubectl kustomize
+
 # unlink 
