@@ -11,6 +11,11 @@ which vagrant
 # plugin for k8s hardway using vagrant
 vagrant plugin install vagrant-scp
 
+# Storage
+# https://qiita.com/yut_h1979/items/c84c490053877beee5c1
+vagrant plugin install vagrant-disksize
+
+
 #gdebiコマンド
 #http://mickey-happygolucky.hatenablog.com/entry/2017/08/05/062959
 
