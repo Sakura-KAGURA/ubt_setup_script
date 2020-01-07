@@ -15,6 +15,10 @@ vagrant plugin install vagrant-scp
 # https://qiita.com/yut_h1979/items/c84c490053877beee5c1
 vagrant plugin install vagrant-disksize
 
+# update
+# https://qiita.com/shikazon/items/4166585cf3f44e33271d
+vagrant plugin install vagrant-vbguest
+
 
 #gdebiコマンド
 #http://mickey-happygolucky.hatenablog.com/entry/2017/08/05/062959
